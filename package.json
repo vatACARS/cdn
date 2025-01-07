@@ -1,0 +1,13 @@
+{
+    "name": "acars-cdn",
+    "version": "2.0.0",
+    "author": "vatACARS Team",
+    "license": "GPL-3.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev -p 7001",
+        "build": "next build",
+        "start": "next start -p 7001",
+        "prime": "npx prisma generate"
+    }
+}
